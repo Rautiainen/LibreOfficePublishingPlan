@@ -1,4 +1,4 @@
-'*****  VBA Macro which makes a publishing plan from a spreadsheet with article data  *****
+'*****  A VBA Macro which makes a publishing plan from a spreadsheet with article data  *****
 
 'Data structure tracks how many articles have certain keywords, and what is the combined character amount of articles
 
@@ -10,7 +10,7 @@ End Type
 
 Sub Main
     'This procedure makes sheet with keywords, number of articles and number of characters
-	'MakeKeywordsSheet
+	MakeKeywordsSheet
 	'This procedure makes a 'publishing plan', that is, sorts keywords according to how many characters have combined articles
 	'this call is redundant, because included in MakePublishingPlanSheetWithDetails
 	'MakePublishingPlanSheet
